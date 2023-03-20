@@ -1,102 +1,11 @@
-# vue-admin-template
-
-English | [简体中文](./README-zh.md)
-
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
-
-**Live demo:** http://panjiachen.github.io/vue-admin-template
-
-
-**The current version is `v4.0+` build on `vue-cli`. If you want to use the old version , you can switch branch to [tag/3.11.0](https://github.com/PanJiaChen/vue-admin-template/tree/tag/3.11.0), it does not rely on `vue-cli`**
-
-## Build Setup
-
-```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
-
-# enter the project directory
-cd vue-admin-template
-
 # install dependency
 npm install
 
 # develop
 npm run dev
-```
 
-This will automatically open http://localhost:9528
-
-## Build
-
-```bash
-# build for test environment
-npm run build:stage
-
-# build for production environment
-npm run build:prod
-```
-
-## Advanced
-
-```bash
-# preview the release environment effect
-npm run preview
-
-# preview the release environment effect + static resource analysis
-npm run preview -- --report
-
-# code format check
-npm run lint
-
-# code format check and auto fix
-npm run lint -- --fix
-```
-
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
-
-## Demo
-
-![demo](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/demo.gif)
-
-## Extra
-
-If you want router permission && generate menu by user roles , you can use this branch [permission-control](https://github.com/PanJiaChen/vue-admin-template/tree/permission-control)
-
-For `typescript` version, you can use [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-
-## Related Project
-
-- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-- [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-
-- [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template)
-
-- [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
-
-## Browsers support
-
-Modern browsers and Internet Explorer 10+.
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
-| --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions
-
-## License
-
-[MIT](https://github.com/PanJiaChen/vue-admin-template/blob/master/LICENSE) license.
-
-Copyright (c) 2017-present PanJiaChen
-
-
-
-
-
-
-接口地址++++++++++++
-权限管理: http://39.98.123.211:8170/swagger-ui.html
-商品管理：http://39.98.123.211:8216/swagger-ui.html
-活动与优惠券管理：http://39.98.123.211:8200/swagger-ui.html
-订单管理：http://39.98.123.211:8204/swagger-ui.html
-客户管理：http://39.98.123.211:8208/swagger-ui.html
+###后台管理系统 (PC端)                                                                                                                     
+#● 技术栈 : Vue + VueX + Vue Router  + Axios + Vue–Devtools + MockJs +ElementUI + Echarts 
+#● 项目简介 ：该后台管理系统主要使用element-ui组件库进行搭建 ，采用模块化 ，组件化 ，工程化的模式进行开发，有首页，权限管理模块，商品管理模块，其中每个模块都有各自的子模块和详尽的功能
+#● 完成工作 ： 整体使用 MVVM 模式对该项目进行搭建 ；采用 element-ui 组件库加快开发的效率 ；通过实现对el-button的二次封装，实现了一些特殊功能的button ，使用echarts框架，采用将抽象数据转化为柱状图，折线图，饼状图的手段，实现了对抽象数据可视化的业务，实现了超级用户可以为员工创建用户名和密码，并为之分配各种角色，使其拥有不同的操作权限，通过对路由进行控制实现了不同角色登录展示不同页面的功能
+#● 项目收获与价值 :  经过对此项目的开发，更加深入理解MVVM模型，领悟Vue设计的精妙，通过运用数据可视化技术将数据模型化，使得对数据的分析更加便利，通过对路由控制实现了对访问权限的限制，使我对角色和权限有了更深的理解，通过完成各种模块的功能与业务逻辑，增加了我对于后台管理项目的业务理解，以及各种api的熟练运用
