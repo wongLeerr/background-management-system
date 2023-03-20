@@ -1,9 +1,3 @@
-# install dependency
-npm install
-
-# develop
-npm run dev
-
 ### 后台管理系统 (PC端)                                                                                                                     
 # ● 技术栈 : 
 Vue + VueX + Vue Router  + Axios + Vue–Devtools + MockJs +ElementUI + Echarts 
