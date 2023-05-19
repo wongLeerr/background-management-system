@@ -1,9 +1,21 @@
-### 后台管理系统 (PC端)                                                                                                                     
-# ● 技术栈 : 
-Vue + VueX + Vue Router  + Axios + Vue–Devtools + MockJs +ElementUI + Echarts 
-# ● 项目简介 ：
-该后台管理系统主要使用element-ui组件库进行搭建 ，采用模块化 ，组件化 ，工程化的模式进行开发，有首页，权限管理模块，商品管理模块，其中每个模块都有各自的子模块和详尽的功能
-# ● 完成工作 ：
-整体使用 MVVM 模式对该项目进行搭建 ；采用 element-ui 组件库加快开发的效率 ；通过实现对el-button的二次封装，实现了一些特殊功能的button ，使用echarts框架，采用将抽象数据转化为柱状图，折线图，饼状图的手段，实现了对抽象数据可视化的业务，实现了超级用户可以为员工创建用户名和密码，并为之分配各种角色，使其拥有不同的操作权限，通过对路由进行控制实现了不同角色登录展示不同页面的功能
-# ● 项目收获与价值 : 
-经过对此项目的开发，更加深入理解MVVM模型，领悟Vue设计的精妙，通过运用数据可视化技术将数据模型化，使得对数据的分析更加便利，通过对路由控制实现了对访问权限的限制，使我对角色和权限有了更深的理解，通过完成各种模块的功能与业务逻辑，增加了我对于后台管理项目的业务理解，以及各种api的熟练运用
+# app
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
